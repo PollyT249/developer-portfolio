@@ -1,0 +1,15 @@
+.icon {
+  width: 32px;
+  height: 32px;
+  fill: black;
+}
+
+.list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.item {
+  list-style-type: none;
+}
