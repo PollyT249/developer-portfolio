@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="projects.css" />
+    <title>Projects</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="list">
+          <li class="item">
+            <a href="/index.html"
+              ><svg class="icon icon-home">
+                <use xlink:href="./images/icons.svg#icon-home"></use>
+              </svg>
+            </a>
+            <p class="item-name">Home</p>
+          </li>
+          <li class="item">
+            <svg class="icon icon-person">
+              <use xlink:href="./images/icons.svg#icon-person"></use>
+            </svg>
+            <p class="item-name">About</p>
+          </li>
+          <li class="item">
+            <a href="/projects.html"
+              ><svg class="icon icon-folder">
+                <use xlink:href="./images/icons.svg#icon-folder"></use>
+              </svg>
+            </a>
+            <p class="item-name">Projects</p>
+          </li>
+          <li class="item">
+            <a href="/certificates.html"
+              ><svg class="icon icon-files">
+                <use xlink:href="./images/icons.svg#icon-files"></use>
+              </svg>
+            </a>
+            <p class="item-name">Certificates</p>
+          </li>
+          <li class="item">
+            <svg class="icon icon-contact_page">
+              <use xlink:href="./images/icons.svg#icon-contact_page"></use>
+            </svg>
+            <p class="item-name">Contact</p>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/singapore-project.png" />
+              <div class="content">
+                <a
+                  href="https://singapore-travel-website.netlify.app/"
+                  target="_blank"
+                  class="swiper-title"
+                >
+                  Singapore Project
+                </a>
+                <p class="swiper-desc">
+                  I used sophisticated responsive design techniques, advanced
+                  HTML and CSS and my new skills in VS Code to build a
+                  responsive landing page about Singapore. The page utilizes
+                  user interaction.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/weather-app.png" />
+              <div class="content">
+                <h2 class="swiper-title">Weather App</h2>
+                <p class="swiper-desc">
+                  I built a Vanilla JavaScript weather app in SheCodes Plus.I
+                  also became skilled in Bootstrap, APIs, real-life development
+                  workflow, hosting, and advanced JavaScript. I combined all of
+                  these skills to create a fully-functioning weather app.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/world-clock-project.png" />
+              <div class="content">
+                <h2 class="swiper-title">Clock Project</h2>
+                <p class="swiper-desc">
+                  I immersed myself in JavaScript development in SheCodes Plus
+                  Add-on. I used my knowledge to build a working World Clock
+                  Project that displays real-time global time zones using
+                  JavaScript & external API.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/react-weather-app.png" />
+              <div class="content">
+                <h2 class="swiper-title">React Weather App</h2>
+                <p class="swiper-desc">
+                  Built an interactive weather app using React & OpenWeather
+                  API, and implemented real-time weather updates with dynamic UI
+                  changes. I used React Conditional Rendering, Loops, AJAX,
+                  External Components, Node.js, NPM.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/dictionary-app.png" />
+              <div class="content">
+                <h2 class="swiper-title">React Dictionary App</h2>
+                <p class="swiper-desc">
+                  The app was built a fully functioning dictionary app with
+                  HTML, CSS and React. Interactive dictionary fetching
+                  definitions from 2 different external APIs, implemented React
+                  Hooks & State Management for real-time search results.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </main>
+    <script src="/projects.js"></script>
+  </body>
+</html>
